@@ -1,0 +1,15 @@
+{
+    "camera":{
+        "gain":"auto",
+        "shutter_speed":"auto",
+        "focus":"fixed",
+        "width":4000,
+        "height":3000    
+    },
+    "board":{
+        "width":22,
+        "height":22,
+        "n_rows":10,
+        "n_cols":10
+    }
+}
