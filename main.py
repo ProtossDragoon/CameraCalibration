@@ -62,7 +62,7 @@ def get_checkerboard_points_on_world_coordinate(
     frame[:, 1] *= checkerboard_tile_width
     return frame
 
-# --
+# - - -
 def calibrate(
     checkerboard_points_on_pixel_coordinate:list, 
     checkerboard_points_on_world_coordinate:list,
