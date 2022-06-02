@@ -3,8 +3,8 @@
         "gain":"auto",
         "shutter_speed":"auto",
         "focus":"auto",
-        "width":false,
-        "height":false  
+        "width":1440,
+        "height":1440  
     },
     "board":{
         "width":22,
