@@ -2,6 +2,23 @@
 
 OpenCV 기반의 카메라 캘리브레이션 도구입니다.
 
+<table>
+<thead align="center">
+  <tr>
+    <th>folder</th>
+    <th>source</th>
+    <th>result</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>iphone13pro</td>
+    <td align="center"><img src=https://github.com/ProtossDragoon/CameraCalibration/blob/master/data/iphone13pro/2022-06-01-14-49-45_001.jpeg alt="src"></td>
+    <td align="center"><img src=https://github.com/ProtossDragoon/CameraCalibration/blob/master/results/data/iphone13pro/2022-06-01-14-49-45_001.jpeg alt="res"></td>
+  </tr>
+</tbody>
+</table>
+
 ## 환경 구축
 
 `python >= 3.8.9`
