@@ -90,7 +90,7 @@ python3 main.py --folder mynewfoler --ext png
 ### 해석값
 
 캘리브레이션 결과는 `/results/?/result.json` 에 작성됩니다.
-```json
+```javascript
 {
     // 3x3 카메라 행렬 값입니다.
     "camera_matrix": [  
@@ -138,9 +138,8 @@ python3 main.py --folder mynewfoler --ext png
                 ]
             ]
         },
-        ...
+        // ... 총 n 개 영상
     ]
-    ...
 
     // 하나의 영상마다 각각 translation 값을 연산합니다.
     // 캘리브레이션에 사용된 영상에 대응되는 값입니다.
@@ -158,7 +157,7 @@ python3 main.py --folder mynewfoler --ext png
                 ]
             ]
         },
-    ...
+        // ... 총 n 개 영상
     ]
 }
 ```
